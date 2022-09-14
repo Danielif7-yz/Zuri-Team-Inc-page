@@ -128,9 +128,9 @@ a {
     text-decoration: grey;
 }
 
-a:link {
+/* a:link {
     color: #ca411e;
-}
+} */
 
 a:hover {
     color: black;
