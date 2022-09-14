@@ -9,6 +9,11 @@ body {
     background-color: whitesmoke;
 }
 
+.text-center {
+    margin-top: 2rem;
+    margin-bottom: none;
+}
+
 .fullscreen {
     height: 3vh;
     height: 3vh;
@@ -16,7 +21,7 @@ body {
 
 .TopBar {
     background-color: white;
-    padding: 23px;
+    padding: 21px;
     height: 100%;
     width: 100%;
     border-radius: 5px;
@@ -88,7 +93,7 @@ h4 {
 }
 
 .form {
-    width: 30rem;
+    width: 23.5rem;
     margin: auto;
     box-shadow: 2px 1px 1px 1px rgba(168, 163, 163, 0.3);
     text-align: left;
@@ -167,20 +172,20 @@ h5 {
     border-radius: 25px;
     background-color: #e7332b;
     border-width: 1px;
-    padding-left: 0.5rem;
+    padding-left: 1rem;
     align-items: center;
     display: inline-flex;
     height: 2.3rem;
-    width: 5rem;
+    width: 6rem;
     margin: 5px;
     font-weight: bold;
     border-width: 1px;
-    border-left: 2px;
+    font: 12px Nunito Sans, sans-serif;
 }
 
 .forgot {
     text-decoration: underline;
-    color: grey;
+    color: rgb(20, 19, 19);
     padding-left: 3rem;
     font-size: 14px;
     font-family: Nunito Sans, sans-serif;
@@ -194,7 +199,6 @@ h5 {
     padding-bottom: 1rem;
     color: grey;
     display: flex;
-    margin-left: 6rem;
 }
 
 
@@ -216,7 +220,7 @@ h5 {
 } */
 
 .btn2:hover {
-    background-color: rgb(27, 26, 26);
+    background-color: rgb(21, 20, 54);
     color: white;
     border: none;
 }
