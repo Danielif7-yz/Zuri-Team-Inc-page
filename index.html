@@ -7,6 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Simple Form</title>
     <link rel="stylesheet" href="./style.css">
+    <style>
+        a {
+            color: grey;
+        }
+    </style>
+
+
 </head>
 
 <body>
@@ -16,31 +23,30 @@
         <img class="img" src="./zuriboard complete  logo.png" alt=" Ingressive For Good and zuri training Logo">
 
 
-        <button class="btn1">LOGIN</button>
-
-
+        <button>Das</button><button class="btn1">LOGIN</button>
     </header>
-
 
     <main class="main">
         <p class="text-center">
-            <h2 id="welcome"> Welcome Back!</h2> <br>
-            <h4 id="login">Login </h4>
+            <h2 id="welcome"> Welcome Back!</h2>
+            <h4 id="login">Login Here</h4>
         </p>
-        <form>
-            <div class="form">
-                <label for="email" id="eml"> Email:</label> <br><br>
-                <input type="Email" name="email" class="email" required placeholder=" "> <br><br>
-                <label for="password" id="pwd"> Password:</label><br><br>
-                <input type="password" name="Password" class="password" required placeholder=" " maxlength="10" minlength="8">
+
+        <div class="form">
+            <form action="#">
+                <label for="email" id="eml"> Email:</label>
+                <input type="Email" name="email" class="field" id="email" required placeholder=" "> <br><br>
+                <label for="password" id="pwd"> Password:</label>
+                <input type="password" name="Password" class="field" id="password" required placeholder=" " maxlength="15" minlength="8">
                 <br><br>
-                <label class="remember">
-                    <input type="checkbox"> <span class="checkmark"> Remember me</span> </label><br/> <br/>
-                <p>
-                    <h5 class="password2">Forgot your password?</h5>
-                </p>
-                <button class="btn2">LOG IN</button>
-            </div>
+                <label class="label">
+                    <input type="checkbox" class="checkbox">  <span class="checkmark"> Remember me</span> </label><br/> <br/>
+                <div class="remember">
+                    <h5 class="forgot"><a href="#">Forgot your password?</h5></a>
+                        <input type="submit" value="LOG IN" class="btn2">
+                        <!-- <button type="Submit" class="btn2">LOG IN</button> -->
+                </div>
+        </div>
         </form>
 
     </main>
