@@ -99,7 +99,7 @@ h4 {
     text-align: left;
     padding-right: 1rem;
     padding-left: 1rem;
-    padding-top: 0.9rem;
+    padding-top: 1rem;
     /* align-items: center; */
     border-radius: 10px;
     background-color: white;
@@ -125,12 +125,8 @@ h4 {
 }
 
 a {
-    text-decoration: grey;
+    text-decoration: black;
 }
-
-/* a:link {
-    color: #ca411e;
-} */
 
 a:hover {
     color: black;
@@ -186,7 +182,7 @@ h5 {
 .forgot {
     text-decoration: underline;
     color: rgb(20, 19, 19);
-    padding-left: 3rem;
+    padding-left: 1rem;
     font-size: 14px;
     font-family: Nunito Sans, sans-serif;
     font-weight: lighter;
@@ -194,11 +190,11 @@ h5 {
 
 .remember {
     justify-content: space-between;
-    padding-right: 2rem;
+    padding-right: 0.1rem;
     border-width: 1px;
     padding-bottom: 1rem;
     color: grey;
-    display: flex;
+    padding-left: 2rem;
 }
 
 
@@ -237,7 +233,8 @@ h5 {
     border: 1px solid white;
 }
 
-@media (max-width:584px) {
+
+/* @media (max-width:584px) {
     .form {
         max-width: 100%;
     }
@@ -245,7 +242,7 @@ h5 {
         margin-bottom: 15px;
         width: 100%;
     }
-}
+} */
 
 footer {
     position: fixed;
